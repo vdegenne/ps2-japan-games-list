@@ -8,7 +8,7 @@ import {mdicon2svg} from 'vite-plugin-mdicon2svg';
 // import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig({
-	// base: './',
+	base: './',
 	resolve: {
 		// preserveSymlinks: true,
 	},
@@ -16,7 +16,7 @@ export default defineConfig({
 		// proxy: {'/api': 'http://localhost:45085'},
 	},
 	build: {
-		// outDir: 'docs',
+		outDir: 'docs',
 		// emptyOutDir: false,
 		// assetsInlineLimit: 6000,
 		// rollupOptions: {
